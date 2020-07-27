@@ -1,0 +1,27 @@
+body {
+    background: rgba(75, 85, 78, 0.637);
+}
+
+.box {
+    width: 1170px;
+    margin: 10% auto;
+}
+
+figure {
+    overflow: hidden;
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 0 15px;
+    border: 5px solid #fff;
+}
+
+figure img {
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+figure:hover img {
+    transform: scale(1.2) rotate(-5deg);
+    cursor: pointer;
+}
